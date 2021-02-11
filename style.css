@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color:tomato;
+    /* augmente d h et b */
+    padding: 112px;
+    border-radius: 3rem;
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    display: grid;
+    grid-template-columns:auto auto;
+    column-gap: 3em;
+    justify-content: center;
+    align-items: center;
+}
+.titre{
+    margin: 0;
+    text-align: center;
+}
+label{
+    font-weight:bold;
+}
+.AmountCharacter{
+    display: flex;
+    align-items: center;
+}
+.numero-input{
+    width: 2rem;
+}
+.passeword-move{
+     background-color:whitesmoke;
+     color: black;
+     padding: .9rem;
+     border-radius: 1px solid rgba(0, 0, 0, 0.246);
+     height: 1rem;
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     word-break: break-all;
+     border-radius: .5rem;
+}
+.btn{
+    grid-column: span 2;
+    background-color: rgba(0, 255, 200, 0.466);
+    color:black;
+    border: 2px solid rgba(255, 0, 0, 0.233);
+    border-radius: 3rem;
+    padding: .15rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+}

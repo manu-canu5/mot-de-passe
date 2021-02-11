@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de Passe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titre">Creer Un Mot de Passe</h1>
+        <h3 class="passeword-move">passeword</h3>
+        <form class="form">
+            <!-- lentente et code separe prk la fxt flex dne -->
+            <label for="AmountNum">Nombre de Character</label>
+          <div class="AmountCharacter">
+            <input type="range"min="1" max="70" value="20" id="AmountNum">
+            <input class="Numero-input" type="number"min="1" max="70"value="20" id="AmountNum">
+          </div>
+          <label for="Majiscules">inclure Majiscules</label>
+          <!-- pti caro d veri -->
+          <input type="checkbox" id="Majiscule">
+          <label for="Numeros">inclure Numeros</label>
+          <input type="checkbox" id="Numero">
+          <label for="Symbols">inclure Symbols</label>
+          <input type="checkbox" id="Symbol">
+          <button class="btn" type="submit">soucrire</button>
+        </form>
+    </div>
+</body>
+</html>
